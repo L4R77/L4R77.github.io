@@ -1,222 +1,222 @@
 /*
- * L4R-77 Portfolio
- * Project data
+ * L4R-77 Portafolio
+ * Datos de proyectos
  *
- * STATUS OPTIONS:
- *   "planning"     — Idea defined, not yet started.
- *   "in-progress"  — Actively building or documenting.
- *   "completed"    — Finished and documented.
- *   "paused"       — Started but temporarily on hold.
+ * OPCIONES DE ESTADO:
+ * "planning"     — Idea definida, aún no iniciada.
+ * "in-progress"  — En construcción o documentación activa.
+ * "completed"    — Finalizado y documentado.
+ * "paused"       — Iniciado, pero temporalmente pausado.
  *
- * CATEGORY OPTIONS:
- *   "blue-team"    — Defensive security projects.
- *   "linux"        — Linux administration and security.
- *   "windows"      — Windows administration and security.
- *   "networking"   — Network analysis and security.
- *   "automation"   — Scripts, tools, and automation.
- *   "forensics"    — Digital forensics projects.
- *   "lab"          — Lab environments and documentation.
+ * OPCIONES DE CATEGORÍA:
+ * "blue-team"    — Proyectos de seguridad defensiva.
+ * "linux"        — Administración y seguridad de Linux.
+ * "windows"      — Administración y seguridad de Windows.
+ * "networking"   — Análisis y seguridad de redes.
+ * "automation"   — Scripts, herramientas y automatización.
+ * "forensics"    — Proyectos de informática forense.
+ * "lab"          — Entornos de laboratorio y documentación.
  *
- * Replace placeholders only when real project
- * information exists. Never invent data.
+ * Reemplaza los marcadores únicamente cuando exista
+ * información real del proyecto. Nunca inventes datos.
  */
 
 const projects = [
 
     /* =====================================================
-       BLUE TEAM PROJECTS
+       PROYECTOS DE BLUE TEAM
     ===================================================== */
 
     {
-        name: "Blue Team Home Lab",
+        name: "Laboratorio de Blue Team en Casa",
 
         category: "blue-team",
 
         description:
-            "Defensive security laboratory focused on monitoring, " +
-            "detection, log analysis and investigation workflows. " +
-            "Designed as a reproducible environment for hands-on " +
-            "Blue Team practice.",
+            "Laboratorio de seguridad defensiva enfocado en monitoreo, " +
+            "detección, análisis de registros y flujos de investigación. " +
+            "Diseñado como un entorno reproducible para practicar " +
+            "habilidades de Blue Team.",
 
         technologies: [
             "Linux",
             "Windows",
             "Wazuh",
             "Sysmon",
-            "Detection"
+            "Detección"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     {
-        name: "Detection Rules Collection",
+        name: "Colección de Reglas de Detección",
 
         category: "blue-team",
 
         description:
-            "Collection of detection rules, Sigma signatures, " +
-            "and alert configurations for common attack techniques. " +
-            "Focused on practical, testable detection content.",
+            "Colección de reglas de detección, firmas Sigma " +
+            "y configuraciones de alertas para técnicas de ataque comunes. " +
+            "Enfocada en contenido de detección práctico y comprobable.",
 
         technologies: [
             "Sigma",
-            "Detection",
+            "Detección",
             "SIEM",
-            "Log Analysis"
+            "Análisis de Registros"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     /* =====================================================
-       LINUX PROJECTS
+       PROYECTOS DE LINUX
     ===================================================== */
 
     {
-        name: "Linux Hardening Lab",
+        name: "Laboratorio de Hardening de Linux",
 
         category: "linux",
 
         description:
-            "Laboratory focused on Linux security configuration, " +
-            "system hardening, auditd configuration, and security " +
-            "baseline documentation.",
+            "Laboratorio enfocado en la configuración de seguridad de Linux, " +
+            "fortalecimiento del sistema, configuración de auditd y " +
+            "documentación de líneas base de seguridad.",
 
         technologies: [
             "Linux",
             "Hardening",
             "Auditd",
-            "Automation"
+            "Automatización"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     {
-        name: "Linux Administration Toolkit",
+        name: "Kit de Herramientas de Administración de Linux",
 
         category: "linux",
 
         description:
-            "Collection of Bash scripts and tools for Linux " +
-            "system administration, security auditing, and " +
-            "automation of routine tasks.",
+            "Colección de scripts y herramientas Bash para la " +
+            "administración de sistemas Linux, auditorías de seguridad " +
+            "y automatización de tareas rutinarias.",
 
         technologies: [
             "Linux",
             "Bash",
-            "Automation",
-            "Administration"
+            "Automatización",
+            "Administración"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     /* =====================================================
-       NETWORKING PROJECTS
+       PROYECTOS DE REDES
     ===================================================== */
 
     {
-        name: "Network Security Lab",
+        name: "Laboratorio de Seguridad de Redes",
 
         category: "networking",
 
         description:
-            "Authorized laboratory for network analysis, traffic " +
-            "inspection, protocol analysis and network security " +
-            "experimentation using isolated environments.",
+            "Laboratorio autorizado para análisis de redes, inspección " +
+            "de tráfico, análisis de protocolos y experimentación " +
+            "en seguridad de redes utilizando entornos aislados.",
 
         technologies: [
-            "Networking",
+            "Redes",
             "TCP/IP",
             "Wireshark",
-            "Analysis"
+            "Análisis"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     /* =====================================================
-       AUTOMATION PROJECTS
+       PROYECTOS DE AUTOMATIZACIÓN
     ===================================================== */
 
     {
-        name: "Security Automation Toolkit",
+        name: "Kit de Automatización de Seguridad",
 
         category: "automation",
 
         description:
-            "Defensive automation utilities for security " +
-            "administration, log analysis, alerting and " +
-            "routine security workflows.",
+            "Utilidades de automatización defensiva para administración " +
+            "de seguridad, análisis de registros, generación de alertas " +
+            "y flujos de trabajo rutinarios de seguridad.",
 
         technologies: [
             "Python",
             "Bash",
-            "Automation",
-            "Security"
+            "Automatización",
+            "Seguridad"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     },
 
 
     /* =====================================================
-       FORENSICS PROJECTS
+       PROYECTOS DE INFORMÁTICA FORENSE
     ===================================================== */
 
     {
-        name: "Digital Forensics Practice Lab",
+        name: "Laboratorio de Práctica de Informática Forense",
 
         category: "forensics",
 
         description:
-            "Environment and documentation for practicing " +
-            "digital forensics techniques including disk " +
-            "analysis, memory forensics and timeline creation.",
+            "Entorno y documentación para practicar técnicas de " +
+            "informática forense, incluyendo análisis de discos, " +
+            "análisis de memoria y creación de líneas de tiempo.",
 
         technologies: [
-            "Forensics",
+            "Informática Forense",
             "Linux",
-            "Analysis",
-            "Documentation"
+            "Análisis",
+            "Documentación"
         ],
 
         status: "planning",
 
-        repository: "[CREATE REPOSITORY]",
+        repository: "[CREAR REPOSITORIO]",
 
-        documentation: "[ADD DOCUMENTATION]"
+        documentation: "[AGREGAR DOCUMENTACIÓN]"
     }
 
 ];

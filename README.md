@@ -1,168 +1,124 @@
-<h1 align="center">
-  L4R<span style="color: #3b82f6;">-77</span>
-</h1>
+# L4R77.github.io
 
-<p align="center">
-  <strong>Defensive Security • Blue Team • Linux • CTFs • Labs</strong>
-</p>
+Professional cybersecurity portfolio of **L4R-77**.
 
-<p align="center">
-  <em>"Learning systems. Understanding threats. Building defenses."</em>
-</p>
+Deployed at: **[https://L4R77.github.io](https://L4R77.github.io)**
 
 ---
 
-## 👤 Identity
+## Identity
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>💻 Main</strong></td>
-    <td align="center"><strong>🛡️ Blue Team</strong></td>
-    <td align="center"><strong>🧪 CTF / Labs</strong></td>
-    <td align="center"><strong>🔧 Linux / Labs</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><code>L4R77</code></td>
-    <td align="center"><code>L4R-77</code></td>
-    <td align="center"><code>L77Ghost</code></td>
-    <td align="center"><code>LarryRoot777</code></td>
-  </tr>
-</table>
+| Context | Alias |
+|---|---|
+| 💻 Main | **L4R77** |
+| 🛡️ Blue Team | **L4R-77** |
+| 🧪 CTF / Labs | **L77Ghost** |
+| 🔧 Linux / Labs | **LarryRoot777** |
+
+This repository hosts the main portfolio website. All other
+projects, tools, labs and writeups live in separate repositories
+within the same GitHub ecosystem.
 
 ---
 
-## 🎯 Focus
+## Portfolio Sections
 
-Building a career in cybersecurity through hands-on practice,
-documentation and continuous learning. Focused on defensive
-security, infrastructure protection and security operations.
-
-- 🛡️ **Defensive Security** — Detection, monitoring, hardening.
-- 🔵 **Blue Team** — Threat hunting, incident response, log analysis.
-- 🐧 **Linux** — Administration, security, automation.
-- 🌐 **Networking** — TCP/IP, analysis, diagnostics.
-- 🧪 **Labs & CTFs** — Practical learning and documentation.
-- ⚙️ **Automation** — Python, Bash, PowerShell.
-
----
-
-## 🧰 Skills
-
-<table>
-  <tr>
-    <td><strong>Operating Systems</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Linux-Exploring-3b82f6?style=flat-square&logo=linux&logoColor=white" alt="Linux">
-      <img src="https://img.shields.io/badge/Windows-Exploring-3b82f6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Security</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Blue_Team-Exploring-3b82f6?style=flat-square" alt="Blue Team">
-      <img src="https://img.shields.io/badge/Threat_Hunting-Exploring-3b82f6?style=flat-square" alt="Threat Hunting">
-      <img src="https://img.shields.io/badge/Detection-Exploring-3b82f6?style=flat-square" alt="Detection">
-      <img src="https://img.shields.io/badge/Incident_Response-Exploring-3b82f6?style=flat-square" alt="Incident Response">
-      <img src="https://img.shields.io/badge/Hardening-Exploring-3b82f6?style=flat-square" alt="Hardening">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Networking</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/TCP%2FIP-Exploring-3b82f6?style=flat-square" alt="TCP/IP">
-      <img src="https://img.shields.io/badge/DNS-Exploring-3b82f6?style=flat-square" alt="DNS">
-      <img src="https://img.shields.io/badge/Network_Analysis-Exploring-3b82f6?style=flat-square" alt="Network Analysis">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Scripting</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-Exploring-3b82f6?style=flat-square&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/Bash-Exploring-3b82f6?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash">
-      <img src="https://img.shields.io/badge/PowerShell-Exploring-3b82f6?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Tools</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Git-Exploring-3b82f6?style=flat-square&logo=git&logoColor=white" alt="Git">
-      <img src="https://img.shields.io/badge/Wireshark-Exploring-3b82f6?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark">
-      <img src="https://img.shields.io/badge/Nmap-Exploring-3b82f6?style=flat-square&logo=nmap&logoColor=white" alt="Nmap">
-    </td>
-  </tr>
-</table>
+- **Home** — Identity, focus areas, and terminal introduction.
+- **About Me** — Professional profile and learning path.
+- **Skills** — Technical capabilities organized by category.
+- **Projects** — Active and planned projects with filtering.
+- **Labs & Machines** — Reproducible cybersecurity lab documentation.
+- **Blue Team** — Defensive security workflow and domains.
+- **CTF / Writeups** — Capture The Flag documentation (L77Ghost).
+- **Security Tools** — Defensive tooling repository structure.
+- **Notes** — Technical documentation and knowledge base.
+- **Contact** — Professional links and connection points.
 
 ---
 
-## 📂 Repository Ecosystem
+## Repository Ecosystem
 
-<table>
-  <tr>
-    <td align="center">🌐</td>
-    <td><a href="https://github.com/L4R77/L4R77.github.io"><strong>L4R77.github.io</strong></a></td>
-    <td>Professional cybersecurity portfolio</td>
-    <td align="center">🟢 Live</td>
-  </tr>
-  <tr>
-    <td align="center">🛠️</td>
-    <td><a href="https://github.com/L4R77/cybersecurity-tools"><strong>cybersecurity-tools</strong></a></td>
-    <td>Defensive security scripts and utilities</td>
-    <td align="center">🟡 Planning</td>
-  </tr>
-  <tr>
-    <td align="center">🛡️</td>
-    <td><a href="https://github.com/L4R77/blue-team-lab"><strong>blue-team-lab</strong></a></td>
-    <td>Blue Team documentation and playbooks</td>
-    <td align="center">🟡 Planning</td>
-  </tr>
-  <tr>
-    <td align="center">🧪</td>
-    <td><a href="https://github.com/L4R77/ctf-writeups"><strong>ctf-writeups</strong></a></td>
-    <td>CTF and lab writeups (L77Ghost)</td>
-    <td align="center">🟡 Planning</td>
-  </tr>
-  <tr>
-    <td align="center">📝</td>
-    <td><a href="https://github.com/L4R77/cybersecurity-notes"><strong>cybersecurity-notes</strong></a></td>
-    <td>Technical notes and knowledge base</td>
-    <td align="center">🟡 Planning</td>
-  </tr>
-</table>
+| Repository | Purpose |
+|---|---|
+| `L4R77.github.io` | Main portfolio website (this repository). |
+| `cybersecurity-tools` | Defensive security scripts and tools. |
+| `blue-team-lab` | Blue Team lab documentation and playbooks. |
+| `ctf-writeups` | CTF and lab writeups (L77Ghost identity). |
+| `cybersecurity-notes` | Technical notes and knowledge base. |
+| `linux-labs` | Linux security and administration labs. |
 
 ---
 
-## 📊 GitHub Stats
+## Technology
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=L4R77&show_icons=true&theme=github_dark&hide_border=true&bg_color=0a0a0c&title_color=3b82f6&icon_color=3b82f6&text_color=9da4b0" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=L4R77&layout=compact&theme=github_dark&hide_border=true&bg_color=0a0a0c&title_color=3b82f6&text_color=9da4b0" alt="Top Languages" height="165">
-</p>
+- **HTML5** — Semantic, accessible markup.
+- **CSS3** — Custom properties, responsive design, dark theme.
+- **JavaScript (Vanilla)** — Dynamic project rendering and filtering.
+- **GitHub Pages** — Static hosting with custom domain support.
 
----
-
-## 🔗 Connect
-
-<p align="center">
-  <a href="https://L4R77.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-L4R77.github.io-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="https://github.com/L4R77">
-    <img src="https://img.shields.io/badge/GitHub-L4R77-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-ADD_LINK-3b82f6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Email-ADD_EMAIL-3b82f6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+No frameworks. No external dependencies. Fully static and
+maintainable.
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=L4R77&color=3b82f6&style=flat-square&label=Profile+Views" alt="Profile views">
-</p>
+## Security
 
-<p align="center">
-  <sub>© 2024 L4R-77 — Built with focus and purpose.</sub>
-</p>
+This portfolio adheres to strict security practices:
+
+- No credentials, tokens, API keys or secrets in any file.
+- `.gitignore` configured for sensitive file patterns.
+- All data is static; no server-side processing or databases.
+- External links use `rel="noopener noreferrer"`.
+- Content Security Policy ready for future implementation.
+- Regular scanning for accidentally committed secrets.
+
+### `.gitignore` Recommendations
+Sensitive
+
+.env
+.env.*
+*.pem
+.key
+.pfx
+.p12
+credentials.
+secrets.
+config.local.
+System
+
+.DS_Store
+Thumbs.db
+desktop.ini
+Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+Dependencies (if ever added)
+
+node_modules/
+text
+
+
+---
+
+## Deployment
+
+This site is deployed via **GitHub Pages** from the `main` branch.
+
+### Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/L4R77/L4R77.github.io.git
+
+# Navigate to the directory
+cd L4R77.github.io
+
+# Start a local server (choose one)
+python3 -m http.server 8000
+# or
+npx serve .
+
+Open http://localhost:8000 in your browser.
