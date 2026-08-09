@@ -1,0 +1,52 @@
+# =========================================================
+# L4R-77 Portfolio
+# Security-focused .gitignore
+# =========================================================
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets
+secrets/
+credentials/
+private/
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Certificates / credentials
+*.crt
+*.cer
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Node / frontend dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Backups
+*.bak
+*.backup

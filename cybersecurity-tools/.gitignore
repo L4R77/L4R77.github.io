@@ -1,0 +1,70 @@
+# =========================================================
+# L4R-77 cybersecurity-tools
+# .gitignore — Security & cleanup
+# =========================================================
+
+# Sensitive files — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.cred
+*.secret
+credentials.*
+secrets.*
+config.local.*
+token.*
+tokens.*
+password.*
+passwords.*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node (if ever used)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+*.log.*
+
+# Archives (avoid committing binaries)
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup

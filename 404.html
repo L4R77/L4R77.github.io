@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#0a0a0c">
+
+    <title>404 — L4R-77</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+
+    <style>
+        /* Minimal additions for 404 page only */
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .error-terminal {
+            width: 100%;
+            max-width: 580px;
+        }
+
+        .error-terminal .terminal-body {
+            padding: 28px 24px;
+            font-size: 0.78rem;
+            line-height: 1.9;
+        }
+
+        .error-terminal .terminal-prompt {
+            color: var(--danger);
+        }
+
+        .error-terminal .terminal-output {
+            color: var(--text-secondary);
+        }
+
+        .error-terminal .terminal-output a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            transition: color var(--transition-fast);
+        }
+
+        .error-terminal .terminal-output a:hover {
+            color: var(--accent-hover);
+        }
+
+        .blink-cursor {
+            display: inline-block;
+            width: 7px;
+            height: 15px;
+            margin-left: 3px;
+            vertical-align: -2px;
+            background: var(--danger);
+            animation: cursor-blink 1s steps(1) infinite;
+        }
+
+        @keyframes cursor-blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="error-page">
+
+        <div class="error-terminal">
+
+            <div class="terminal-window">
+
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="terminal-title">
+                        l4r77@security-lab — error
+                    </span>
+                </div>
+
+                <div class="terminal-body">
+
+                    <p>
+                        <span class="terminal-prompt">$</span>
+                        curl -I https://L4R77.github.io<span class="error-path"></span>
+                    </p>
+
+                    <p class="terminal-output">
+                        HTTP/1.1 <span style="color: var(--danger);">404</span> Not Found
+                    </p>
+
+                    <p class="terminal-output">
+                        Content-Type: text/plain
+                    </p>
+
+                    <p class="terminal-output">
+                        X-Error-Message: The requested resource does not exist on this server.
+                    </p>
+
+                    <p style="margin-top: 16px;">
+                        <span class="terminal-prompt">$</span>
+                        cd /home
+                    </p>
+
+                    <p class="terminal-output">
+                        <a href="/">https://L4R77.github.io</a>
+                    </p>
+
+                    <p>
+                        <span class="terminal-prompt">$</span>
+                        <span class="blink-cursor"></span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script>
+        // Inject the attempted path into the terminal
+        const errorPath = document.querySelector(".error-path");
+        if (errorPath) {
+            const path = window.location.pathname;
+            if (path && path !== "/") {
+                errorPath.textContent = path;
+            } else {
+                errorPath.textContent = "/unknown";
+            }
+        }
+    </script>
+
+</body>
+</html>

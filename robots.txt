@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://L4R77.github.io/sitemap.xml
