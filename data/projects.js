@@ -217,6 +217,85 @@ const projects = [
         repository: "[CREAR REPOSITORIO]",
 
         documentation: "[AGREGAR DOCUMENTACIÓN]"
+    },
+
+
+    /* =====================================================
+       PROYECTOS DE CTF / WRITEUPS
+    ===================================================== */
+
+    {
+        name: "Writeups de Máquinas HTB",
+
+        category: "lab",
+
+        description:
+            "Writeups enfocados en metodología para máquinas retiradas " +
+            "de Hack The Box. Incluye reconocimiento, enumeración, " +
+            "explotación y técnicas de escalada de privilegios.",
+
+        technologies: [
+            "HTB",
+            "Linux",
+            "Windows",
+            "Pentesting"
+        ],
+
+        status: "in-progress",
+
+        repository: "ctf-writeups/hackthebox/",
+
+        documentation: "ctf-writeups/README.md"
+    },
+
+
+    {
+        name: "HTB: Blue (EternalBlue)",
+
+        category: "lab",
+
+        description:
+            "Writeup de la máquina Blue de Hack The Box. " +
+            "Explotación de EternalBlue (MS17-010) en Windows " +
+            "para obtener acceso SYSTEM directamente.",
+
+        technologies: [
+            "Windows",
+            "EternalBlue",
+            "SMB",
+            "Metasploit"
+        ],
+
+        status: "completed",
+
+        repository: "ctf-writeups/hackthebox/machines/blue/",
+
+        documentation: "ctf-writeups/hackthebox/machines/blue/README.md"
+    },
+
+
+    {
+        name: "Walkthroughs de Salas TryHackMe",
+
+        category: "lab",
+
+        description:
+            "Walkthroughs educativos para salas de TryHackMe. " +
+            "Metodología paso a paso con herramientas, comandos " +
+            "y lecciones aprendidas.",
+
+        technologies: [
+            "TryHackMe",
+            "CTF",
+            "Aprendizaje",
+            "Documentación"
+        ],
+
+        status: "in-progress",
+
+        repository: "ctf-writeups/tryhackme/",
+
+        documentation: "ctf-writeups/README.md"
     }
 
 ];
